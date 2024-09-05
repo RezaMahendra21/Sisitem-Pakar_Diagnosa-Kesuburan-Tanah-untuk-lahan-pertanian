@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/iniiu/Documents/arief/SistemPakar/app/src/main/res/layout/activity_diagnosa.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/iniiu/Documents/arief/SistemPakar/app/src/main/res/layout/activity_hasil.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/iniiu/Documents/arief/SistemPakar/app/src/main/res/layout/activity_jenis.xml" value="0.27134146341463417" />
+        <entry key="..\:/Users/iniiu/Documents/arief/SistemPakar/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/rizwanysf/AndroidStudioProjects/SistemPakar/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1385" />
+        <entry key="..\:/Users/rizwanysf/AndroidStudioProjects/SistemPakar/app/src/main/res/drawable/bay.xml" value="0.1385" />
+        <entry key="..\:/Users/rizwanysf/AndroidStudioProjects/SistemPakar/app/src/main/res/drawable/bga.xml" value="0.1" />
+        <entry key="..\:/Users/rizwanysf/AndroidStudioProjects/SistemPakar/app/src/main/res/drawable/bgp.xml" value="0.1" />
+        <entry key="..\:/Users/rizwanysf/AndroidStudioProjects/SistemPakar/app/src/main/res/drawable/bgtext.xml" value="0.1385" />
+        <entry key="..\:/Users/rizwanysf/AndroidStudioProjects/SistemPakar/app/src/main/res/drawable/btno.xml" value="0.1385" />
+        <entry key="..\:/Users/rizwanysf/AndroidStudioProjects/SistemPakar/app/src/main/res/drawable/btnya.xml" value="0.1385" />
+        <entry key="..\:/Users/rizwanysf/AndroidStudioProjects/SistemPakar/app/src/main/res/layout/activity_diagnosa.xml" value="0.25" />
+        <entry key="..\:/Users/rizwanysf/AndroidStudioProjects/SistemPakar/app/src/main/res/layout/activity_jenis.xml" value="0.29314720812182743" />
+        <entry key="..\:/Users/rizwanysf/AndroidStudioProjects/SistemPakar/app/src/main/res/layout/activity_main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgr"
+    android:layout_gravity="center_horizontal"
+    tools:context=".Jenis">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="57dp"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:text="Pengetahuan"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        tools:ignore="HardcodedText" />
+
+    <ScrollView
+        android:id="@+id/line1"
+        android:layout_width="389dp"
+        android:layout_height="605dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="3dp"
+        android:fillViewport="false"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/sip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="PH pada Tanah"
+                android:textAlignment="textStart"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+
+                android:text="\nSecara umum tanah adalah bagian dari bumi yang tersusun dari unsur organik dan unsur mineral.
+                \nUnsur organik tanah berasal dari benda atau makhluk hidup yang sudah mati serta unsur hara lainnya. \n\nSedangkan unsur mineral tanah berasal dari bebatuan yang terpendam lama di dalamnya.
+                \n\nTanah memiliki karakteristik yang berbeda dengan batuan karena teksturnya yang lebih mudah hancur serta memiliki pori-pori di dalamnya.\n\nTanah memiliki derajat keasaman (pH) tertentu yang menjadi indikasi atau faktor untuk melihat kualitas tanahnya. Dengan mengetahui kadar keasaman ataupun kebasaan di dalam tanah, manusia jadi bisa tahu pada derajat keasaman berapa tanah cocok untuk dijadikan sebagai media tanam yang baik.\n
+\nTidak hanya harus mengetahui apa itu pH tanah, Anda juga harus tahu bagaimana cara mengukurnya. \nCara mengukur yang mudah sebenarnya bisa dengan menggunakan alat bantu. Namun ada juga cara alami mengukur pH tanah, yaitu sebagai berikut.\n
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="Biota Pada Tanah "
+                android:textAlignment="textStart"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+
+                android:text="\nBiologi tanah adalah sebuah studi mengenai aktivitas mikrob dan fauna beserta ekologinya di dalam tanah.\n\nFauna tanah, biota tanah, atau edafon adalah istilah yang biasanya digunakan untuk menyebut organisme yang menghabiskan sebagian besar siklus hidupnya di dalam tanah atau sedimen organik di atasnya. \n\nFauna tanah mencakup cacing tanah, nematoda, fungi, bakteri, dan berbagai arthropoda. Dekomposisi materi organik oleh organimse memiliki pengaruh yang besar terhadap tingkat kesuburan dan struktur tanah sehingga biologi tanah berperan penting dalam menentukan karakteristik tanah.\n"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:text="Tekstur Tanah"
+            android:textAlignment="textStart"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+
+                android:text="\nTekstur tanah dapat berfungsi menentukan tata air di dalam tanah yaitu berupa penetrasi, kecepatan infiltrasi, serta kemampuan mengikat air.\n\nTekstur tanah sangat menentukan reaksi fisik dan kimia di dalam tanah, karena ukuran partikel tanah bisa menjadi faktor penentu luas permukaan tanah.\n"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="Struktur Tanah"
+                android:textAlignment="textStart"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+
+                android:text="\nStruktur tanah adalah sebuah komposisi dan campuran dari lapisan permukaan tanah yang ada. \n\nSetiap bagian yang ada di dalamnya seperti tanah liat, pasir, batuan kerikil hingga batuan padat yang ada di dalam tanah merupakan sebuah struktur tanah yang akan berbeda-beda pada setiap kedalaman yang ada.\n"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="Warna Tanah"
+                android:textAlignment="textStart"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+
+                android:text="\nWarna tanah merupakan gabungan berbagai warna komponen penyusun tanah. \n\nWarna tanah berhubungan langsung secara proporsional dari total campuran warna yang dipantulkan permukaan tanah. \n\n\n"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

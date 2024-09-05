@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgr"
+    tools:context=".hasil">
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:fontFamily="@font/acme"
+        android:textSize="21sp"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+
+        android:padding="15dp"
+        android:text="Hasil :"/>
+
+    <TextView
+        android:id="@+id/hasil2"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hasil"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/acme"
+        android:padding="15dp"
+        android:text="Nama Penyakit :"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/hasil3"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hasil2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/acme"
+        android:padding="15dp"
+        android:text="Pengobatan :"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hasil"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/bga"
+        android:ems="5"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="21sp" />
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgr"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:text="Aplikasi Penentu Kesuburan Tanah Untuk Pertanian"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_diagnosa"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/bga"
+        android:fontFamily="@font/acme"
+        android:text="Mulai Diagnosa"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintCircleRadius="@android:dimen/app_icon_size"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_jenis"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/bga"
+        android:fontFamily="@font/acme"
+        android:text="Pengetahuan"
+        android:textSize="20sp"
+        app:layout_constraintCircleRadius="@android:dimen/app_icon_size"
+        app:layout_constraintEnd_toEndOf="@+id/btn_diagnosa"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_diagnosa"
+        app:layout_constraintTop_toBottomOf="@+id/btn_diagnosa"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="212dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/plant"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_jenis"
+        app:layout_constraintStart_toStartOf="@+id/btn_jenis"
+        app:layout_constraintTop_toBottomOf="@+id/btn_jenis"
+        app:layout_constraintVertical_bias="0.074" />
+
+</android.support.constraint.ConstraintLayout>
