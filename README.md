@@ -1,8 +1,8 @@
 # Sisitem-Pakar_Diagnosa-Kesuburan-Tanah-untuk-lahan-pertanian
-Aplikasi Diagnosa Kesuburan Tanah Untuk Lahan Pertanian Teorema Bayes, menggunakan Php, MySql dan Java (android Studio). 
-<br><br>
-<h1>Reza Mahendra</h1>
-<br><b>Tampilan Contoh Aplikasi:</b><br>
+Aplikasi Diagnosa Kesuburan Tanah Untuk Lahan Pertanian Teorema Bayes, menggunakan Php, MySql dan Java (android Studio). <br>
+<h3>Reza Mahendra</h3>
+<br>
+<b>Tampilan Contoh Aplikasi:</b><br>
 <img
   src="/sample/IMG-20230128-WA0005.jpg"
   alt="Alt text"
